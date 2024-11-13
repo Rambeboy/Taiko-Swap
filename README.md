@@ -4,7 +4,7 @@ This bot is used to automate deposit and withdrawal operations on the Taiko netw
 
 ---
 
-# Installation
+## Installation
 
 1. Clone project repository
    ```bash
@@ -29,7 +29,7 @@ This bot is used to automate deposit and withdrawal operations on the Taiko netw
 
 ---
 
-# Start the Bot
+## Start the Bot
 
 - Run
   ```bash
@@ -38,7 +38,7 @@ This bot is used to automate deposit and withdrawal operations on the Taiko netw
 
 ---
 
-# Security
+## Security
 
 Never share your private key.
 Use a separate wallet for the bot.
@@ -46,7 +46,7 @@ Ensure that the `.env` file is listed in `.gitignore.` Monitor the bot's activit
 
 ---
 
-# Common Errors
+## Common Errors
 
 Transaction errors:
 - Check if there is sufficient ETH balance.
@@ -55,7 +55,7 @@ Transaction errors:
 
 ---
 
-# Disclaimer
+## Disclaimer
 
 This bot is provided without any guarantees. Users are fully responsible for the use of the bot and any potential risks involved.
 
