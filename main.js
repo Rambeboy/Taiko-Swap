@@ -405,7 +405,7 @@ function centerText(text) {
 
         
         console.clear();
-        console.log(chalk.white.bold(centerText('TAIKO SWAP BOT')));
+        console.log(chalk.white.bold(centerText('TAIKO SWAP')));
         console.log(chalk.white.bold(centerText('AUTHOR: NOFAN RAMBE')));
         console.log(chalk.white(centerText('WELCOME & ENJOY SIR!')));
         console.log();
