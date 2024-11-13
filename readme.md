@@ -1,4 +1,4 @@
-# Taiko Bot
+# TAIKO SWAP
 
 Bot ini digunakan untuk melakukan operasi deposit dan withdraw otomatis pada jaringan Taiko dengan dukungan untuk multiple wallets.
 
