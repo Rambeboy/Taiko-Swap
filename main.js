@@ -396,9 +396,9 @@ async function displayName() {
     try {
         console.clear();
         console.log(chalk.magenta.bold('TAIKO SWAP BOT'));
-        console.log();
         console.log(chalk.magenta.bold('AUTHOR : NOFAN RAMBE'));
         console.log(chalk.magenta('WELCOME & ENJOY SIR!'));
+        console.log();
 
         const wallets = await initialize();
 
@@ -452,7 +452,7 @@ async function displayName() {
         console.error(chalk.red('⚠️ Kesalahan fatal:', error.message));
         await delay(5000);
         console.log(chalk.yellow('🔄 Mencoba menjalankan ulang bot...'));
-        await retrunvoid();
+        await displayName();
     }
 }
 
@@ -460,7 +460,7 @@ async function displayName() {
 console.log(chalk.magenta.bold('⚠️ Memulai Bot Swap Otomatis Taiko'));
 cron.schedule('1 7 * * *', async () => {
     console.log(chalk.magenta(`\n⚠️ Memulai jalankan harian pada ${getCurrentTime()}`));
-    await retrunvoid();
+    await displayName();
 }, {
     scheduled: true,
     timezone: "Asia/Jakarta"
