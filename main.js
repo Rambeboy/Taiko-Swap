@@ -14,6 +14,10 @@ let currentRPCIndex = 0;
 let provider;
 let wethContract;
 
+const getDisplayName = require('./src/utils');
+
+console.log(getDisplayName());
+
 // Fungsi untuk tes kecepatan dan keandalan RPC
 async function testRPC(rpcUrl) {
     try {
