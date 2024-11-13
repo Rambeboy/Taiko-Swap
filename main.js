@@ -14,10 +14,6 @@ let currentRPCIndex = 0;
 let provider;
 let wethContract;
 
-const getDisplayName = require('./src/utils');
-
-console.log(getDisplayName());
-
 // Fungsi untuk tes kecepatan dan keandalan RPC
 async function testRPC(rpcUrl) {
     try {
@@ -397,13 +393,13 @@ async function performTransactions(wallets, isDeposit = true, retryCount = 0) {
 }
 
 
-async function retrunvoid() {
+async function displayName() {
     try {
         console.clear();
-        console.log(chalk.magenta.bold('💎 BOT SWAP OTOMATIS TAIKO 💎'));
-        console.log(chalk.magenta.bold('💎 Lu Rename Juga Gpp ASAL TAU MALU AJA 💎'));
-        console.log(chalk.magenta('📌 NOTE KERAS : LU PAKE BOT TANGGUNG SENDIRI JANGAN SALAHIN YANG BIKIN 📌'));
-        console.log(chalk.magenta('📌 Dibuat oleh: retrunvoid 📌'));
+        console.log(chalk.magenta.bold('TAIKO SWAP BOT'));
+        console.log();
+        console.log(chalk.magenta.bold('AUTHOR : NOFAN RAMBE'));
+        console.log(chalk.magenta('WELCOME & ENJOY SIR!'));
 
         const wallets = await initialize();
 
@@ -472,4 +468,4 @@ cron.schedule('1 7 * * *', async () => {
 });
 
 // Initial run
-retrunvoid();
+displayName();
