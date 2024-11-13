@@ -394,10 +394,20 @@ async function performTransactions(wallets, isDeposit = true, retryCount = 0) {
 
 async function displayName() {
     try {
+        const chalk = require('chalk');
+
+const terminalWidth = process.stdout.columns;
+
+function centerText(text) {
+    const padding = Math.max(0, Math.floor((terminalWidth - text.length) / 2));
+    return ' '.repeat(padding) + text;
+}
+
+        
         console.clear();
-        console.log(chalk.magenta.bold('TAIKO SWAP BOT'));
-        console.log(chalk.magenta.bold('AUTHOR : NOFAN RAMBE'));
-        console.log(chalk.magenta('WELCOME & ENJOY SIR!'));
+        console.log(chalk.white.bold(centerText('TAIKO SWAP BOT')));
+        console.log(chalk.white.bold(centerText('AUTHOR: NOFAN RAMBE')));
+        console.log(chalk.white(centerText('WELCOME & ENJOY SIR!')));
         console.log();
 
         const wallets = await initialize();
