@@ -7,12 +7,12 @@ Bot ini digunakan untuk melakukan operasi deposit dan withdraw otomatis pada jar
 1. Clone repositori ini:
 
    ```bash
-   git clone https://github.com/retrunv0id/Taiko-swap-v2.git
+   git clone https://github.com/Rambeboy/Taiko-Swap.git
    ```
 2. Masuk ke direktori proyek:
 
    ```bash
-   cd Taiko-swap-v2
+   cd Taiko-Swap
    ```
 
 3. Instal dependensi:
