@@ -23,7 +23,7 @@ Bot ini digunakan untuk melakukan operasi deposit dan withdraw otomatis pada jar
 
 4. Setup konfigurasi:
    
-    - File `.env`:
+File `.env`:
 
      ```env
        WALLET_PRIVATEKEY_1=isiPRIVATEKEYakun1
@@ -38,7 +38,7 @@ Bot ini digunakan untuk melakukan operasi deposit dan withdraw otomatis pada jar
 5. Start bot:
 
    ```bash
-   node swap.js
+   node main.js
    ```
 
 ## Keamanan
@@ -57,12 +57,6 @@ Error transaksi:
    - Pastikan gas price sesuai
    - Cek status jaringan Taiko
 
-## Donasi
-
-Jika Anda merasa terbantu dengan bot ini, Anda dapat memberikan dukungan melalui:
-
-- EVM : `0x513569F2a68f29BA2feeEA57664fa919791F3E0D`
-- Btc : `bc1pcmctyrzu302zm7u9hxd0usc3mt89vqzuj7n27xdksdvs6lsaylmsf60w7l`
 
 ## Disclaimer
 
